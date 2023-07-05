@@ -21,6 +21,7 @@ const makeApiCall = async () => {
                     'Content-Type': 'application/json' // Set the content type to JSON
                 }
             });
+            const jsonData={"sd":"asa"};
             const responseData = response.data;
 
             // Publish the response data using pub-sub
